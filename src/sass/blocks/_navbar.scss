@@ -1,0 +1,43 @@
+.nav {
+    padding-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    .menu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        &__phone {
+            color: wheat;
+            color: $whitecolor;
+            text-decoration: none;
+        }
+        .logo {
+            margin-right: 70px;
+        }
+        &__item {
+            margin-right: 40px;
+            &__link {
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                font-weight: 400;
+                font-size: 14px;
+                color: $whitecolor;
+                text-decoration: none;
+                &:hover {
+                    color: rgba(255, 255, 255, 0.628);
+                    transition: 0.4;
+                    &:before {
+                        position: absolute;
+                        content: ' ';
+                        background-color: $whitecolor;
+                        height: 2px;
+                        width: 43px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.promo {
+    padding: 216px 0 322px 0;
+    &__title {
+        font-weight: 400;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: $whitecolor;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 100px;
+        color: $whitecolor;
+        text-transform: uppercase;
+    }
+}
