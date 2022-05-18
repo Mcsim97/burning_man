@@ -1,15 +1,23 @@
 .promo {
+    position: relative;
     padding: 216px 0 322px 0;
     &__title {
         font-weight: 400;
         font-size: 30px;
         text-transform: uppercase;
         color: $whitecolor;
+        /*         animation: animate 1s linear infinite;
+        position: absolute; */
     }
-    &__subtitle {
-        font-weight: 400;
+    /*     @keyframes animate {
+        from {
+            Left: -10px;
+        }
+        to {
+            left: 15px
+        }
+    } */
+    .subtitle {
         font-size: 100px;
-        color: $whitecolor;
-        text-transform: uppercase;
     }
 }
